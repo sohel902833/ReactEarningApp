@@ -1,0 +1,19 @@
+.updateContainer{
+    margin-left: 25px;
+}
+.updateContainer input[type="number"]{
+    width: 180px;
+    height: 35px;
+    padding-left: 10px;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+.updateContainer button{
+    width: 180px;
+    height: 35px;
+    background:purple;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}

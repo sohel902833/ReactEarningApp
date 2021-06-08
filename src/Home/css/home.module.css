@@ -1,0 +1,74 @@
+.homeContainer{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.userContainer{
+    display: flex;
+    width: 90%;
+    box-sizing: border-box;
+    justify-content: left;
+    border: 2px solid #000;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 15px;
+}
+.userContainerLeft{
+    margin-right: 25px;
+}
+.userContainerLeft img{
+    border: 2px solid purple;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+
+}
+.userContainer h2{
+    color: #000;
+}
+.userContainer h3{
+    color: green;
+}
+.userContainerRight{
+    
+}
+.appSettingContainer{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+.settingItem{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+.settingItem input[type="number"]{
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    width: 70%;
+    margin-right: 25px;
+    height: 50px;
+    font-size: 25px;
+    padding-left: 25px;
+}
+.settingItem p{
+    font-size: 35px;
+    font-weight: bold;
+}
+.updateButton{
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}

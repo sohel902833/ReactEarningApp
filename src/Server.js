@@ -1,0 +1,1 @@
+export  var url="http://itask24.xyz/api/";

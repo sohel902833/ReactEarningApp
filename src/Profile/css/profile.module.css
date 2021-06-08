@@ -1,0 +1,50 @@
+.profileContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.profileTop{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.profileTop img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:2px solid #000;
+}
+
+
+.profileBottom{
+    margin-top: 25px;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+.earningContainer{
+
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    border-radius: 25px;
+    margin-bottom: 15px;
+
+
+}
+.colorGreen{
+    color: green;
+}
+.colorRed{
+    color: red;
+}

@@ -1,0 +1,36 @@
+.paymentSettingContainer{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+.settingItem{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+.settingItem input[type="number"]{
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    width: 70%;
+    margin-right: 25px;
+    height: 50px;
+    font-size: 25px;
+    padding-left: 25px;
+}
+.settingItem p{
+    font-size: 35px;
+    font-weight: bold;
+}
+.updateButton{
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+h3{
+    margin-bottom: 5px;
+}
